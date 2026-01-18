@@ -14,6 +14,21 @@
 - Compare R² and p-values across specifications
 - Evaluate interpretability vs performance
 
+## Baseline Model Results
+
+Several functional forms were tested to model the relationship between character height and mass.
+
+| Model | R² | p-value |
+|------|----|---------|
+| Linear | 0.017 | 0.323 |
+| Logarithmic | 0.020 | 0.291 |
+| Exponential | 0.427 | < 0.0001 |
+| Power | 0.449 | < 0.0001 |
+| Polynomial | 0.022 | 0.742 |
+
+The Power model provides the best baseline performance, explaining approximately 45% of the variance in mass. This baseline model will be used as a reference for further improvements through additional variables.
+
+
 ## 4. Robustness checks
 - Remove extreme outliers
 - Compare results
