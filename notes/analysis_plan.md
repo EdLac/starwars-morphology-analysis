@@ -2,6 +2,10 @@
 ## Analysis Plan & Results (Version 1)
 
 ---
+## Project overview
+
+This project investigates the relationship between character height and mass in the Star Wars universe.
+The objective is to identify an appropriate functional form, assess model performance, and progressively improve explanatory power through segmentation and data enrichment.
 
 ## 1. Baseline Model
 
